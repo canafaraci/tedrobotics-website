@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="311" height="139.764" viewBox="0 0 311 139.764">
+  <defs>
+    <filter id="Path_1" x="0.778" y="0" width="307.642" height="139.764" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-opacity="0.431"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_6" x="0" y="7.392" width="311" height="120" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur-2"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Button" transform="translate(-743 -454.608)">
+    <g transform="matrix(1, 0, 0, 1, 743, 454.61)" filter="url(#Path_1)">
+      <path id="Path_1-2" data-name="Path 1" d="M48.709.544l158.46,1.771c26.9.3,48.953,17.714,49.254,38.894S235.16,79.316,208.258,79.016L49.8,77.245C22.9,76.944.845,59.53.544,38.35S21.808.244,48.709.544Z" transform="translate(24.21 36.88) rotate(-3)" fill="#57b7dd"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 743, 454.61)" filter="url(#Rectangle_6)">
+      <rect id="Rectangle_6-2" data-name="Rectangle 6" width="263" height="72" rx="36" transform="translate(24 31.39)" fill="#ff6d56"/>
+    </g>
+  </g>
+</svg>

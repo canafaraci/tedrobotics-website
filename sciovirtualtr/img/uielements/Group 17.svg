@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1974.001" height="2680" viewBox="0 0 1974.001 2680">
+  <defs>
+    <filter id="Intersection_1" x="0" y="6" width="844.307" height="131.695" filterUnits="userSpaceOnUse">
+      <feOffset dx="-4" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-opacity="0.439"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Intersection_2" x="775.995" y="6" width="1198.005" height="270.61" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur-2"/>
+      <feFlood flood-opacity="0.522"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Intersection_3" x="23.464" y="6" width="1931.469" height="236.176" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur-3"/>
+      <feFlood flood-opacity="0.51"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Intersection_4" x="31.722" y="0" width="1404.949" height="290.038" filterUnits="userSpaceOnUse">
+      <feOffset dx="-2" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-4"/>
+      <feFlood flood-opacity="0.51"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Intersection_5" x="63.558" y="6" width="1906.443" height="234.37" filterUnits="userSpaceOnUse">
+      <feOffset dx="-2" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur-5"/>
+      <feFlood flood-opacity="0.529"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_17" data-name="Group 17" transform="translate(28 20)">
+    <rect id="Background" width="1920" height="2660" fill="#f8f7dc"/>
+    <g id="Topper" transform="translate(-324.503 -878.4)">
+      <g transform="matrix(1, 0, 0, 1, 296.5, 858.4)" filter="url(#Intersection_1)">
+        <path id="Intersection_1-2" data-name="Intersection 1" d="M-1379.952,1666.191h796.307l-796.307,83.695Z" transform="translate(1407.95 -1646.19)" fill="#ffd72e"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 296.5, 858.4)" filter="url(#Intersection_2)">
+        <path id="Intersection_2-2" data-name="Intersection 2" d="M427.739,1977.712-611.569,1756.8H538.437v70.468L519.065,1918.4a76.916,76.916,0,0,1-91.326,59.308Z" transform="translate(1409.56 -1736.8)" fill="#57b7dd"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 296.5, 858.4)" filter="url(#Intersection_3)">
+        <path id="Intersection_3-2" data-name="Intersection 3" d="M462.78,1767.425l-1786.311-187.748H559.937L547.407,1698.9a77.013,77.013,0,0,1-76.484,68.957A77.824,77.824,0,0,1,462.78,1767.425Z" transform="translate(1368.99 -1559.68)" fill="#23283a"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 296.5, 858.4)" filter="url(#Intersection_4)">
+        <path id="Intersection_4-2" data-name="Intersection 4" d="M-1562.079,1831.558l-24.734-127.246H-241.864L-1413.18,1931.992a127.683,127.683,0,0,1-24.372,2.357A127.038,127.038,0,0,1-1562.079,1831.558Z" transform="translate(1650.54 -1684.31)" fill="#7bb25f"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 296.5, 858.4)" filter="url(#Intersection_5)">
+        <path id="Intersection_5-2" data-name="Intersection 5" d="M-1597.778,1610.168l-6.162-70.432H254.5V1575.6l-1714.7,150.016c-3.762.329-7.508.491-11.214.491A127,127,0,0,1-1597.778,1610.168Z" transform="translate(1693.5 -1519.74)" fill="#ff6d56"/>
+      </g>
+    </g>
+  </g>
+</svg>
