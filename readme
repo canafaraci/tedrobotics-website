@@ -1,0 +1,7 @@
+color pallette:
+
+Logo Blue: #121341, rgb(18 19 65), CMYK 72 71 00 75
+Logo Pink: #d51954, rgb(213 25 84), CMYK 00 88 61 16
+Footer Grey: #202525, rgb(32 37 37), CMYK 14 00 00 85
+Text Color: white / black ----> Depends on the background
+Text Hover Color: #d51954, rgb(213 25 84), CMYK 00 88 61 16
