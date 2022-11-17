@@ -1,6 +1,10 @@
 Color Pallette:
 Logo Blue: #121341, rgb(18 19 65), CMYK 72 71 00 75
 Logo Pink: #d51954, rgb(213 25 84), CMYK 00 88 61 16
+Green: #2eb94c, rgb(46, 185, 76), CMYK 75 00 59 27
+Second Pink: #af3290, rgb(175, 50, 144), CMYK 00 71 18 31
+Second Blue: #14447e, rgb(20, 68, 126), CMYK 84 46 00 51
+Cyan: #09bdc4, rgb(9, 189, 196), CMYK 95 04 00 23
 Footer Grey: #202525, rgb(32 37 37), CMYK 14 00 00 85
 Text Color: white / black ----> Depends on the background
 Text Hover Color: #d51954, rgb(213 25 84), CMYK 00 88 61 16
