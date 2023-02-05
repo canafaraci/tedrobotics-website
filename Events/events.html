@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events</title>
+  <head>
+    <script>
+      function myFunction() {
+        document.getElementById("mainFrameOne").style.display = "none";
+      }
+    </script>
+    <style>
+      #headings {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        letter-spacing: 0.5px;
+        font-style: oblique;
+        color: whitesmoke;
+        margin-top: -780px;
+        margin-left: 90px;
+        z-index: 1000;
+      }
+
+      #heading-backgrounds {
+        width: 200px;
+        height: 70px;
+        border-radius: 20px;
+        z-index: 950;
+        background-color: #d51654;
+        margin-top: -75px;
+        margin-left: 50px;
+      }
+
+      video {
+        width: 100%;
+        height: auto;
+        z-index: -1;
+        position: relative;
+        -webkit-filter: blur(8px);
+        filter: blur(8px);
+      }
+      #tapforaward {
+        font-size: 150%;
+        height: 200px;
+        object-fit: contain;
+        margin-left: 300px;
+        margin-top: 100px;
+        color: whitesmoke;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-weight: bold;
+      }
+
+      #background2 {
+        background-color: rgba(213, 25, 84, 0.4);
+        width: 1450px;
+        height: 100px;
+        z-index: -1;
+        position: relative;
+        margin-top: -265px;
+      }
+
+      a:link {
+        color: #2eb94c;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #2eb94c;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      #link-otherevents {
+        color: whitesmoke;
+        background-color: transparent;
+        text-align: left;
+        margin-left: 1270px;
+        font-size: 150%;
+        font-weight: bold;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <video width="320" height="240" autoplay>
+      <source src="video/ras video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <h1 id="headings">EVENTS</h1>
+    <div id="heading-backgrounds"></div>
+    <p id="tapforaward">
+      <a id="linktoras" href="rasvideo.html">TAP</a> to see us win the ROOKIE
+      ALL STAR AWARD at FRC Istanbul Regional 2022!
+    </p>
+    <div class="rectangle" id="background2"></div>
+    <a id="link-otherevents" href="otherevents.html">other events ></a>
+  </body>
+</html>
