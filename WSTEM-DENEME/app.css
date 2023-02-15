@@ -1,0 +1,308 @@
+:root {
+  --primary-color: #121341;
+  --secondary-color: #d51954;
+  --tertiary-color: #af3290;
+  --accent-color: #14447e;
+  --text-color: #000000
+}
+
+body {
+  background-color: var(--secondary-color);
+  font-family: Arial, sans-serif;
+  color: var(--primary-color);
+}
+
+header {
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+  padding: 10px;
+  text-align: center;
+  font-size: 40px;
+}
+
+nav {
+  background-color: var(--tertiary-color);
+  padding: 10px;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  font-size: 30px;
+}
+
+nav a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: var(--secondary-color);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+.highlight {
+  background-color: #ffcc00;
+}
+
+/* Scroll to article */
+html {
+  scroll-behavior: smooth;
+}
+
+article {
+  flex: 1 1 25%;
+  margin: 10px;
+  background-color: var(--accent-color);
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+article img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+article h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+
+article p {
+  margin: 0;
+  font-size: 16px;
+}
+
+article .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  color: var(--tertiary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  cursor: pointer;
+}
+
+article:hover .overlay {
+  opacity: 1;
+}
+
+article .overlay h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+article .overlay p {
+  font-size: 18px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+  text-align: center;
+}
+
+footer img {
+  height: 30px;
+  vertical-align: middle;
+}
+
+
+.slider-container {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.copy {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-prev,
+.slider-next {
+  background: none;
+  border: none;
+  font-size: 2em;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.slider-prev:focus,
+.slider-next:focus {
+  outline: none;
+}
+
+.slider-prev:hover,
+.slider-next:hover {
+  color: var(--secondary-color);
+}
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.slide {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider-container,
+.image-container {
+  height: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: var(--text-color);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: var(--primary-color);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: var(--secondary-color);
+}
+
+/* Caption text */
+.text {
+  color: var(--text-color);
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: var(--text-color);
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: var(--background-color);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
